@@ -5,7 +5,7 @@
 <p align="center">
 
   <samp>
-    <a href="https://saheed.code">website</a> .
+    <a href="https://saheed.codes">website</a> .
     <a href="https://saheed.codes/second-brain/entries">rambles</a> .
     <a href="https://saheed.codes/second-brain">digital garden</a> .
     <a href="https://saheed.codes/books">books</a> .
