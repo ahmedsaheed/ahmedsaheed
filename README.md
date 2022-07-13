@@ -1,5 +1,5 @@
 <p align="center">
-<samp>A vastibule onto some of my technical imaginations<samp>
+<samp>A vastibule onto some of my technical imaginations.<samp>
 </p>
 
 <p align="center">
