@@ -14,12 +14,12 @@
 </p>
 <table align="center">
   <tr>
-  <th><a href="https://github.com/prathyvsh/formal-systems-in-biology">Formal Systems in Biology</a></td>
+  <th><a href="https://en.wikipedia.org/wiki/History_of_computing">Computation</a></td>
   <th><a href="https://www.fourmilab.ch/babbage/sketch.html">The Analytic Engine</a></td>
   <th><a href="http://www.aaronsw.com/weblog/dalio">Leaning In</a></td>
   </tr>
   
-  <tr><td><a href="https://github.com/prathyvsh/formal-systems-in-biology"><img width="250px" alt="Cover for formal systems in biology" src="https://pbs.twimg.com/media/FZRKD95WAAIru4B?format=png&name=small" /></a></td>
+  <tr><td><a href="https://en.wikipedia.org/wiki/History_of_computing"><img width="250px" alt="Cover for formal systems in biology" src="https://pbs.twimg.com/media/FZRKD95WAAIru4B?format=png&name=small" /></a></td>
 <td><a href="https://www.fourmilab.ch/babbage/sketch.html"><img width="250px" alt="Cover for notational compendium" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Ada_Lovelace_child_portrait_Somerville_College.jpg/220px-Ada_Lovelace_child_portrait_Somerville_College.jpg" /></a></td>
 <td><a href="http://www.aaronsw.com/weblog/dalio"><img width="250px" alt="Cover for history of logic" src="https://pbs.twimg.com/media/FZJv0ZSXgAEWcYN?format=jpg&name=small" /></td></a></tr>
 
