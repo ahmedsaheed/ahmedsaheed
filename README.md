@@ -28,7 +28,7 @@
   <th><a href="https://jonathanjenningsharris.com/work/balloons-of-bhutan">Ballons Of Bhutan</a></td>
   <th><a href="http://www.aaronsw.com/weblog/about">journals</a></td></tr>
     <tr><td><a href="https://www.messynessychic.com/2014/06/17/seriously-though-how-did-the-most-beautiful-library-in-america-get-demolished/"><img width="250px" alt="Cover for lambda calculus" src="https://pbs.twimg.com/media/FZLDuL5WQAA-OtV?format=jpg&name=small" /></a></td>
-<td><a href="https://jonathanjenningsharris.com/work/balloons-of-bhutan"><img width="250px" height="200px" alt="Cover for typefaces" src="https://jonathanjenningsharris.com/static/items/people/jjh/projects/balloons-of-bhutan-rinzin-medium.jpg" /></a></td>
+<td><a href="https://jonathanjenningsharris.com/work/balloons-of-bhutan"><img width="250px" alt="Cover for typefaces" src="https://jonathanjenningsharris.com/static/items/people/jjh/projects/balloons-of-bhutan-rinzin-medium.jpg" /></a></td>
 <td><a href="http://www.aaronsw.com/weblog/about"><img width="250px" alt="Cover for category theory" src="https://jonathanjenningsharris.com/static/items/people/jjh/projects/in-fragments-journals-big.jpg" /></td></a></tr>
 
 </table>
