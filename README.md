@@ -7,7 +7,7 @@
   <samp>
     <a href="https://saheed.codes">website</a> .
     <a href="https://saheed.codes/books">books</a> .
-    <a href="https://github.com/ahmedsaheed/library-box">library-box</a> 
+    <a href="https://saheed.codes/photos">photos</a> 
   </samp>
 </p>
 
