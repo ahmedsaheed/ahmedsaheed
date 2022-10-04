@@ -1,5 +1,5 @@
 <p align="center">
-<samp>A vastibule onto some playfully tossed bit and pieces.<samp>
+<samp>Playfully tossed bits and pieces.<samp>
 </p>
 
 <p align="center">
