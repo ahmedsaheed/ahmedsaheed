@@ -6,8 +6,7 @@
 
   <samp>
     <a href="https://saheed.codes">website</a> .
-    <a href="https://saheed.codes/books">books</a> .
-    <a href="https://saheed.codes/photos">photos</a> 
+    <a href="https://saheed.codes/blog">notes</a> 
   </samp>
 </p>
 
