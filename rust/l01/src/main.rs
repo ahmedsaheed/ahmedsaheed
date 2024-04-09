@@ -2,12 +2,27 @@
 use std::{cmp::Ordering, io};
 use rand::Rng;
 
-fn main() {
-    println!("Enter a number 1 - 10 inclusive");
 
-    loop {
-        let random_number = rand::thread_rng().gen_range(1..10);
-        let mut guessed_number = String::new();
+fn guessing_game() {
+    let mut how_many = String::new();
+    println!("How many rand num do you want to guess");
+    io::stdin().read_line(&mut how_many).expect("Error reading input");
+    let num_guesses: u8 = how_many.trim().parse().expect("Error Parsing");
+
+    let mut correct = Vec::new();
+
+    for _ in 0..num_guesses  {
+        correct.push(rand::thread_rng().gen_range(1..20))
+    }
+
+    println!("{correct:?}");
+
+    let mut guesses_made = 0;
+
+    println!("Guess from 1 - 20");
+  while guesses_made < num_guesses  {
+        // let random_number = rand::thread_rng().gen_range(1..10);
+        let mut  guessed_number = String::new();
         io::stdin().read_line(&mut guessed_number).expect("Error reading input");
 
         let guessed_number: u32 =
@@ -20,23 +35,28 @@ fn main() {
                 };
 
         println!("You guessed {}", guessed_number);
-        println!("Random Value is {random_number}");
-        /*Using binded if expressions */
-        /*
-       let message = if random_number < guessed_number {
-           "Guess too high"
-       } else if random_number > guessed_number {
-           "Guess too low"
-       }else{
-          "Correct Guess"
-       };
-       */
 
-       // match with comparison
-       match guessed_number.cmp(&random_number) {
-          Ordering::Equal => {println!("Correct Guess"); break;},
+       match guessed_number.cmp(&correct[guesses_made as usize]) {
+          Ordering::Equal => {
+              println!("Correct Guess");
+              guesses_made += 1;
+              if guesses_made < num_guesses {
+                  println!("Next Index")
+              }
+          },
           Ordering::Greater => println!("Guess too high"),
           Ordering::Less =>  println!("Guess too low")
        };
-    }
+       }
+
+       println!("Thanks for playing!");
+
+       for item in correct {
+           println!("{item}")
+       }
+
+}
+
+fn main() {
+    guessing_game()
 }
