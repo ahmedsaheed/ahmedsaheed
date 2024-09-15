@@ -1,1 +1,1 @@
-![GRPE8-tWgAAYPNz](https://github.com/user-attachments/assets/a65cc830-7fbb-48cb-a6b5-9c296c111592)
+![1500x500](https://github.com/user-attachments/assets/7a55e8ad-017f-4d21-ba7d-c3c6352d134b)
