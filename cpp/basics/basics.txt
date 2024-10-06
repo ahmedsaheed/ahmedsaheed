@@ -1,0 +1,5 @@
+* Presents the notation of cpp, cpp memory and computation and 
+  the basic mechanism for organizing cpp programs.
+
+* Chapter 2: Variables and Basic Types
+
