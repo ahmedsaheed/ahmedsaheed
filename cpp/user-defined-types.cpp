@@ -1,4 +1,5 @@
 #include <iostream>
+#include <map>
 #include <string>
 using namespace std;
 /*
@@ -59,11 +60,14 @@ double read_and_sum_vector(unsigned int s) {
  * Public members are accessible from outside the class
  */
 class Vector_Class {
+
+  // private members are only accessible within the class
 private:
   int size;
   double *elements;
   void say_hello() { cout << "Hello, World!"; }
 
+  // public members are accessible from outside the class
 public:
   // the constructor - it must be same name as the class name
   Vector_Class(int size) : size{size}, elements{new double[size]} {}
@@ -85,10 +89,64 @@ public:
   }
 };
 
+enum Type { str, num };
+struct Entry {
+  string name;
+  Type t;
+  string s;
+  int i;
+};
+
+void f(Entry *e) {
+  if (e->t == str) {
+    cout << e->s;
+  }
+}
+
+enum class Traffic_light { Green, Yellow, Red };
+enum class Primary_color { Red, Blue, Yellow };
+
+Primary_color col_yellow = Primary_color::Yellow;
+auto wait_for_traffic = Traffic_light::Red;
+
+Traffic_light &operator++(Traffic_light &light) {
+  switch (light) {
+  case Traffic_light::Red:
+    return light = Traffic_light::Yellow;
+  case Traffic_light::Green:
+    return light = Traffic_light::Red;
+  case Traffic_light::Yellow:
+    return light = Traffic_light::Green;
+  }
+}
+
+Traffic_light &operator--(Traffic_light &light) {
+  switch (light) {
+  case Traffic_light::Red:
+    return light = Traffic_light::Green;
+  case Traffic_light::Green:
+    return light = Traffic_light::Yellow;
+  case Traffic_light::Yellow:
+    return light = Traffic_light::Red;
+  }
+}
+
+string to_string(Traffic_light light) {
+
+  std::map<Traffic_light, string> light_map = {
+      {Traffic_light::Red, "Red"},
+      {Traffic_light::Green, "Green"},
+      {Traffic_light::Yellow, "Yellow"}};
+
+  return light_map.find(light)->second;
+}
+
 // test vector_class
 Vector_Class vec_class(5);
 
 int main() {
   // cout << to_string(read_and_sum_vector(5));
   cout << to_string(vec_class.get_size());
+  Traffic_light next_light = ++wait_for_traffic;
+  cout << to_string(next_light);
 }
